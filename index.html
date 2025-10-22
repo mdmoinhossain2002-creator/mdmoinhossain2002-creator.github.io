@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Md Moin Hossain — Computer Science student at Brunel University London. Explore my projects, skills, and contact me for collaborations." />
+  <title>Md Moin Hossain | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-content">
+      <img src="moin.jpg" alt="Md Moin Hossain" class="profile-pic" />
+      <h1>Md Moin Hossain</h1>
+      <p class="subtitle">2nd Year Computer Science Student</p>
+      <p class="university">Brunel University London</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+ 
+  <main>
+
+  
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I’m <strong>Md Moin Hossain</strong>, a Computer Science student at Brunel University London.
+        I’m passionate about software development, web design, and creating innovative digital solutions.
+        My goal is to use technology to solve real-world problems and make applications that are both functional and user-friendly.
+      </p>
+    </section>
+
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SQL</li>
+        <li>SPSS</li>
+        <li>DB Browser</li>
+        <li>Figma Design</li>
+        <li>Python (Basic)</li>
+        <li>Git & GitHub</li>
+        <li>Problem Solving</li>
+        <li>Team Collaboration</li>
+      </ul>
+    </section>
+
+   
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+
+        <div class="project-card">
+          <h3>🌐 Personal Portfolio</h3>
+          <p>A responsive and visually appealing website built using HTML, CSS, and modern UI animations to showcase my work and academic projects.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>📊 Python Data Visualizer (Ongoing)</h3>
+          <p>Currently developing an interactive Python-based data visualization tool using Matplotlib and Pandas, focusing on simplifying data analysis for non-technical users.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>🏫 Sport School System</h3>
+          <p>
+            This project was designed to combine functionality with usability. My goal was to develop the Sport School module as part of a larger University Management System.
+            The system allows users such as students and the public to view, book, and manage sport sessions easily.
+            The detailed feature set will be explained further in the requirements documentation.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you’d like to collaborate or just say hi, feel free to reach out:</p>
+      <p>Email: <a href="mailto:mdmoinhossain2002@gmail.com">mdmoinhossain2002@gmail.com</a></p>
+      <p>Phone: <a href="tel:+447598937519">+44 7598 937519</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/moin-hossain-66a382333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">linkedin.com/in/mdmoinhossain</a></p>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>&copy; 2025 Md Moin Hossain. All rights reserved.</p>
+  </footer>
+
+
+  <script>
+    const toggleBtn = document.getElementById("theme-toggle");
+    const body = document.body;
+
+    toggleBtn.addEventListener("click", () => {
+      body.classList.toggle("dark-mode");
+      toggleBtn.textContent = body.classList.contains("dark-mode") ? "☀️" : "🌙";
+    });
+  </script>
+</body>
+</html>
